@@ -17,3 +17,8 @@ console.log(`Nota ${nota}, situação: ${situacao}`)
 situacao = nota >= 6 ? 'APROVADO' : 'REPROVADO'
 
 console.log(`Nota ${nota}, situação: ${situacao}`)
+
+// cd .. para sair da pasta
+// git add .. criar o pacote
+// git commit -m "XXXXXXX"
+// git push
