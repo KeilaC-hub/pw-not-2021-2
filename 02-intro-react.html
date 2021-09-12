@@ -39,7 +39,9 @@
 
         let divTeste = React.createElement('div', null, 'Div de teste')
 
-        const container = React.createElement('div', null, [novaDiv, parag, DivTeste])
+        const container = React.createElement('div', null, [
+            novaDiv, parag, divTeste
+        ])
 
         ReactDOM.render(container, root)
 
